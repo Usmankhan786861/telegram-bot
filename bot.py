@@ -15,7 +15,7 @@ from telegram.ext import (
 from openpyxl import Workbook
 
 import os
-BOT_TOKEN = os.getenv("6301247571:AAGiFteJUSTpnMpgmIZKQc5EadMuhnU721o")
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 logging.basicConfig(
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
